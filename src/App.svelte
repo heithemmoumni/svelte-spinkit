@@ -1,11 +1,12 @@
 <script>
-	export let name;
+	import Spinner from './Spinner.svelte'
+
+
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
 </style>
 
-<h1>Hello {name}!</h1>
+<div>
+	<Spinner />
+</div>
