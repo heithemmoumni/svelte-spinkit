@@ -1,10 +1,10 @@
-.sk-fold-cube {
+.sk-folding-cube {
   width: var(--sk-size);
   height: var(--sk-size);
   position: relative;
   transform: rotateZ(45deg);
 }
-.sk-fold-cube > div {
+.sk-folding-cube > div {
   float: left;
   width: 50%;
   height: 50%;
@@ -12,7 +12,7 @@
   transform: scale(1.1);
 }
 
-.sk-fold-cube > div:before {
+.sk-folding-cube > div:before {
   content: "";
   position: absolute;
   top: 0;
@@ -23,22 +23,22 @@
   animation: sk-fold 2.4s infinite linear both;
   transform-origin: 100% 100%;
 }
-.sk-fold-cube > div:nth-child(2) {
+.sk-folding-cube > div:nth-child(2) {
   transform: scale(1.1) rotateZ(90deg);
 }
-.sk-fold-cube > div:nth-child(4) {
+.sk-folding-cube > div:nth-child(4) {
   transform: scale(1.1) rotateZ(180deg);
 }
-.sk-fold-cube > div:nth-child(3) {
+.sk-folding-cube > div:nth-child(3) {
   transform: scale(1.1) rotateZ(270deg);
 }
-.sk-fold-cube > div:nth-child(2):before {
+.sk-folding-cube > div:nth-child(2):before {
   animation-delay: 0.3s;
 }
-.sk-fold-cube > div:nth-child(4):before {
+.sk-folding-cube > div:nth-child(4):before {
   animation-delay: 0.6s;
 }
-.sk-fold-cube > div:nth-child(3):before {
+.sk-folding-cube > div:nth-child(3):before {
   animation-delay: 0.9s;
 }
 

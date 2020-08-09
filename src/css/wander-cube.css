@@ -1,6 +1,7 @@
 .sk-wander-cube {
-  width: 52px;
-  height: 52px;
+  width: var(--sk-size);
+  height: var(--sk-size);
+  background-color: currentColor;
   position: relative;
 }
 

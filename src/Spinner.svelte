@@ -3,6 +3,7 @@
   export let color;
 
   require("./css/global.css");
+  require("./css/wave.css");
   require("./css/circle.css");
   require("./css/fading-circle.css");
   require("./css/flow.css");
@@ -11,10 +12,13 @@
   require("./css/pulse.css");
   require("./css/swing.css");
   require("./css/wander-cube.css");
+  require("./css/double-bounce.css");
+  require("./css/rotating-plane.css");
+  require("./css/chasing-dots.css");
 
   const spinkitSpinners = {
     circle: { className: "sk-circle", divCount: 12 },
-    "cube-grid": { className: "sk-cube-grid", divCount: 9 },
+    "cube-grid": { className: "sk-grid-cube", divCount: 9 },
     wave: { className: "sk-wave", divCount: 5 },
     "folding-cube": { className: "sk-folding-cube", divCount: 4 },
     "three-bounce": { className: "sk-three-bounce", divCount: 3 },
@@ -26,7 +30,7 @@
   };
 
   const spinnerInfo = spinkitSpinners[name] || spinkitSpinners["three-bounce"];
-    console.log(spinnerInfo)
+  console.log(spinnerInfo);
 </script>
 
 <style>

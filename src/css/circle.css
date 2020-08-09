@@ -1,6 +1,6 @@
 .sk-circle {
-  width: 22px;
-  height: 22px;
+  width: var(--sk-size);
+  height: var(--sk-size);
   position: relative;
 }
 
