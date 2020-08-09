@@ -1,0 +1,17 @@
+.sk-pulse {
+  width: var(--sk-size);
+  height: var(--sk-size);
+  background-color: currentColor;
+  border-radius: 100%;
+  animation: sk-scaleout 1.2s infinite cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,54 @@
+/* Cube positions
+    * 1 2 3
+    * 4 5 6
+    * 7 8 9
+*/
+.sk-grid {
+  width: 27px;
+  height: 27px;
+}
+.sk-grid-cube > div {
+  width: 33.33%;
+  height: 33.33%;
+  background-color: currentColor;
+  float: left;
+  animation: sk-scaleDelay 1.3s infinite ease-in-out;
+}
+.sk-grid-cube > div:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.sk-grid-cube > div:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.sk-grid-cube > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.sk-grid-cube > div:nth-child(4) {
+  animation-delay: 0.1s;
+}
+.sk-grid-cube > div:nth-child(5) {
+  animation-delay: 0.2s;
+}
+.sk-grid-cube > div:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.sk-grid-cube > div:nth-child(7) {
+  animation-delay: 0s;
+}
+.sk-grid-cube > div:nth-child(8) {
+  animation-delay: 0.1s;
+}
+.sk-grid-cube > div:nth-child(9) {
+  animation-delay: 0.2s;
+}
+
+@keyframes sk-scaleDelay {
+  0%,
+  70%,
+  100% {
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    transform: scale3D(0, 0, 1);
+  }
+}

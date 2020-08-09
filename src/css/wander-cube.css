@@ -1,0 +1,48 @@
+.sk-wander-cube {
+  width: 52px;
+  height: 52px;
+  position: relative;
+}
+
+.sk-wander-cube > div {
+  background-color: currentColor;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  --sk-wander-distance: calc(52px * 0.75);
+  animation: sk-cubemove 2s ease-in-out -2s infinite both;
+  animation: sk-cubemove 1.8s infinite ease-in-out;
+}
+.sk-wander-cube > div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+.sk-wander-cube > div:nth-child(3) {
+  animation-delay: -1s;
+}
+
+@keyframes sk-cubemove {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: translateX(var(--sk-wander-distance)) rotate(-90deg) scale(0.6);
+  }
+  50% {
+    /* Make FF rotate in the right direction */
+    transform: translateX(var(--sk-wander-distance))
+      translateY(var(--sk-wander-distance)) rotate(-179deg);
+  }
+  50.1% {
+    transform: translateX(var(--sk-wander-distance))
+      translateY(var(--sk-wander-distance)) rotate(-180deg);
+  }
+  75% {
+    transform: translateX(0) translateY(var(--sk-wander-distance))
+      rotate(-270deg) scale(0.6);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

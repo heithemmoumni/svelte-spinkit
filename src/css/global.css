@@ -1,0 +1,12 @@
+:root {
+  --sk-size: 40px;
+  --sk-color: #333;
+}
+
+.sk-spinner {
+  color: #333;
+}
+
+.sk-spinner > div {
+  background-color: currentColor;
+}

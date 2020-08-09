@@ -7,6 +7,6 @@
 <style>
 </style>
 
-<div>
-	<Spinner />
-</div>
+<Spinner name="circle" color="red" />
+<br><br>
+<Spinner name="pulse" color="red" />
