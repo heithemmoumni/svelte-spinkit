@@ -30,7 +30,6 @@
   };
 
   const spinnerInfo = spinkitSpinners[name] || spinkitSpinners["three-bounce"];
-  console.log(spinnerInfo);
 </script>
 
 <style>
