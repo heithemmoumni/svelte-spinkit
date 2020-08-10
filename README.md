@@ -25,3 +25,5 @@ import Spinner from 'svelte-spinkit';
 
 <Spinner name="circle" />
 ```
+See more examples on the [demo page](https://codesandbox.io/s/svelte-spinkit-tdqiu).
+
