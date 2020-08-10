@@ -10,3 +10,15 @@ A collection of loading indicators animated with CSS for Svelte
 [![Edit Vue Template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/svelte-spinkit-tdqiu)
 
 
+## Installation
+
+```bash
+npm i svelte-spinkit
+```
+
+## Usage
+
+### Bundler (Webpack, Rollup)
+
+```js
+import Spinner from 'svelte-spinkit';
