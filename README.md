@@ -22,3 +22,6 @@ npm i svelte-spinkit
 
 ```js
 import Spinner from 'svelte-spinkit';
+
+<Spinner name="circle" />
+```
