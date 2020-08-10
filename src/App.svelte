@@ -3,6 +3,9 @@
 </script>
 
 <style>
+  body {
+    font-family: "Libre Baskerville", serif;
+  }
   code {
     padding: 5px 5px;
     margin-bottom: 35px;
@@ -31,7 +34,7 @@
   <h1>Svelte-Spinkit</h1>
   <h2>
     <a href="https://github.com/heithemmoumni/svelte-Spinkit">
-      Browser in github
+      Browse code on GitHub
     </a>
   </h2>
   <h3>Spinkit Spinners</h3>
