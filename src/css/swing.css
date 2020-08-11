@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  background-color: var(--sk-color);
+  background-color: currentColor;
   border-radius: 100%;
   animation: sk-swing-dot 2s infinite ease-in-out;
 }
