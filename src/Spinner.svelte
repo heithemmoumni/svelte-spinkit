@@ -1,20 +1,19 @@
 <script>
   export let name;
   export let color;
-
-  require("./css/global.css");
-  require("./css/wave.css");
-  require("./css/circle.css");
-  require("./css/fading-circle.css");
-  require("./css/flow.css");
-  require("./css/fold-cube.css");
-  require("./css/grid-cube.css");
-  require("./css/pulse.css");
-  require("./css/swing.css");
-  require("./css/wander-cube.css");
-  require("./css/double-bounce.css");
-  require("./css/rotating-plane.css");
-  require("./css/chasing-dots.css");
+  import "./css/global.css";
+  import "./css/wave.css";
+  import "./css/circle.css";
+  import "./css/fading-circle.css";
+  import "./css/flow.css";
+  import "./css/fold-cube.css";
+  import "./css/grid-cube.css";
+  import "./css/pulse.css";
+  import "./css/swing.css";
+  import "./css/wander-cube.css";
+  import "./css/double-bounce.css";
+  import "./css/rotating-plane.css";
+  import "./css/chasing-dots.css";
 
   const spinkitSpinners = {
     circle: { className: "sk-circle", divCount: 12 },

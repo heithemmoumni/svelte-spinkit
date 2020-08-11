@@ -1,11 +1,8 @@
 <script>
-  import Spinner from "./Spinner.svelte";
+  import { Spinner } from "../src/index.js";
 </script>
 
 <style>
-  body {
-    font-family: "Libre Baskerville", serif;
-  }
   code {
     padding: 5px 5px;
     margin-bottom: 35px;
@@ -17,9 +14,10 @@
     width: fit-content;
   }
   main {
-    width: 70%;
+    width: 60%;
     margin-bottom: 50px;
     padding: 20px 40px;
+    margin: 0 auto;
   }
   .d-flex {
     display: flex;
