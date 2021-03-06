@@ -28,7 +28,7 @@
     pulse: { className: "sk-pulse", divCount: 1 }
   };
 
-  const spinnerInfo = spinkitSpinners[name] || spinkitSpinners["three-bounce"];
+  const spinner = spinkitSpinners[name] || spinkitSpinners["three-bounce"];
 </script>
 
 <style>
@@ -36,9 +36,9 @@
 </style>
 
 <div
-  class="sk-fade-in sk-fade-in {spinnerInfo['className']}"
+  class="sk-fade-in sk-fade-in {spinner['className']}"
   style="color: {color || '#000'};">
-  {#each Array(spinnerInfo.divCount) as _, i}
+  {#each Array(spinner.divCount) as _, i}
     <div />
   {/each}
 </div>
